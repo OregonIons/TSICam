@@ -81,7 +81,7 @@ class TSI_Library:
                      (self._swidth, self._sheight, self._rgb, self._bitsperpixel)))
 
         self.camera.operation_mode = 0 # software-triggered
-        self.camera.frames_per_trigger_zero_for_unlimited = 1  # single frame per trigger
+        self.camera.frames_per_trigger_zero_for_unlimited = 1 # single frame per trigger
         self.camera.is_frame_rate_control_enabled = False # disable frame rate control
 
         self.fpsmin = self.camera.frame_rate_control_value_range.min # min fps
