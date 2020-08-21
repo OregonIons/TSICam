@@ -1,4 +1,3 @@
 sphinx-argparse
 git+https://github.com/m-labs/sipyco
 numpy
-./reqs/thorlabs_tsi_camera_python_sdk_package.zip
