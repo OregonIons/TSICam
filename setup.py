@@ -5,8 +5,8 @@ setup(
     version="0.1",
     description="ARTIQ support for Thorlabs Scientific Imaging cameras.",
     author="OregonIons",
-    url="https://github.com/ARTIQ-Controllers/TSICam",
-    download_url="https://github.com/ARTIQ-Controllers/TSICam",
+    url="https://github.com/OregonIons/TSICam",
+    download_url="https://github.com/OregonIons/TSICam",
     install_requires=["sipyco", "numpy", "thorlabs-tsi-sdk"],
     packages=find_packages(),
     entry_points={
